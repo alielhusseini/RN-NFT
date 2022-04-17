@@ -14,6 +14,28 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-NFT-NFTTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-NFT-NFTTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		83574351E2E544A7B22FF65B /* badge.png in Resources */ = {isa = PBXBuildFile; fileRef = E9AFD94A56E5490F9F1E3D45 /* badge.png */; };
+		E0829F7CF7CD4DD8BB6DD800 /* eth.png in Resources */ = {isa = PBXBuildFile; fileRef = B11F5A04CE0B4FA0B33B206E /* eth.png */; };
+		2CAED00A78FA4974810C281D /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C60C1094F04994A89A4774 /* heart.png */; };
+		2A6BBE3C14F14532B188D9DF /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = D3B7FED740F444D08BC06736 /* left.png */; };
+		CF9ED0904C254087BA2CDCA6 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = F87CBB6C92EE44E7B5EE96A3 /* search.png */; };
+		76C576F6FE624BADBE88BDC9 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 371AC581196B4AE6A07F7FA9 /* logo.png */; };
+		207B1000FA12408B896888DB /* nft01.png in Resources */ = {isa = PBXBuildFile; fileRef = E50298B795074BC6BF3D84E9 /* nft01.png */; };
+		4B64C8026E4C47AC9C12AB6E /* nft02.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1B24F43871E14ED7B37B661E /* nft02.jpeg */; };
+		84A5CF7EDD3A40BE892A76E7 /* nft03.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D4DC87202B8C4534B99B22ED /* nft03.jpeg */; };
+		79D21EF4DF66425C868BA009 /* nft04.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C4F665DFDF2044BF9B827DBE /* nft04.jpeg */; };
+		B6E50A3B2F4D4D52A648C750 /* nft05.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 294EACCBC03D4CA4B4E82672 /* nft05.jpeg */; };
+		D794089B40094BF3AD81781C /* nft06.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A428AF1882F443FAEDB75C3 /* nft06.jpeg */; };
+		1559856C951A4A71956C93F8 /* nft07.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0905C7AB2BAD4DC8B65E4F9A /* nft07.jpeg */; };
+		5565E250450A45C5BA8B7443 /* person01.png in Resources */ = {isa = PBXBuildFile; fileRef = 9306852D827E49F59136BDD3 /* person01.png */; };
+		0380DB2004004C3DA3FB62E4 /* person02.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF48BE972D04F18B7BA150C /* person02.png */; };
+		4F3BBE5C5DF2492397EC97A8 /* person03.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E4BAFD095BD484995B0509C /* person03.png */; };
+		5FE2178EAD5A4148B1FD5C4C /* person04.png in Resources */ = {isa = PBXBuildFile; fileRef = 823132261EA143FD9C9D1571 /* person04.png */; };
+		2737598FAD2F4A52AFB8D41B /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 960BE846C6824AA7A30A6E8A /* Inter-Bold.ttf */; };
+		4EB756281CE546258A07F440 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF81B56BEE3E4AD986BE9D41 /* Inter-Light.ttf */; };
+		9DA7C304BE764D52B7BD9EC2 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 707AF50AE3AE489E91C07BC9 /* Inter-Medium.ttf */; };
+		1E4828E07310435799B717DE /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C27BB293BB84F21A57F24D0 /* Inter-Regular.ttf */; };
+		6F9130C5CF39495794813615 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA346623CBB14D9292E49B6A /* Inter-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +66,28 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = NFT/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-NFT-NFTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFT-NFTTests.release.xcconfig"; path = "Target Support Files/Pods-NFT-NFTTests/Pods-NFT-NFTTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		E9AFD94A56E5490F9F1E3D45 /* badge.png */ = {isa = PBXFileReference; name = "badge.png"; path = "../src/assets/icons/badge.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B11F5A04CE0B4FA0B33B206E /* eth.png */ = {isa = PBXFileReference; name = "eth.png"; path = "../src/assets/icons/eth.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		48C60C1094F04994A89A4774 /* heart.png */ = {isa = PBXFileReference; name = "heart.png"; path = "../src/assets/icons/heart.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D3B7FED740F444D08BC06736 /* left.png */ = {isa = PBXFileReference; name = "left.png"; path = "../src/assets/icons/left.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F87CBB6C92EE44E7B5EE96A3 /* search.png */ = {isa = PBXFileReference; name = "search.png"; path = "../src/assets/icons/search.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		371AC581196B4AE6A07F7FA9 /* logo.png */ = {isa = PBXFileReference; name = "logo.png"; path = "../src/assets/images/logo.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E50298B795074BC6BF3D84E9 /* nft01.png */ = {isa = PBXFileReference; name = "nft01.png"; path = "../src/assets/images/nft01.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1B24F43871E14ED7B37B661E /* nft02.jpeg */ = {isa = PBXFileReference; name = "nft02.jpeg"; path = "../src/assets/images/nft02.jpeg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D4DC87202B8C4534B99B22ED /* nft03.jpeg */ = {isa = PBXFileReference; name = "nft03.jpeg"; path = "../src/assets/images/nft03.jpeg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C4F665DFDF2044BF9B827DBE /* nft04.jpeg */ = {isa = PBXFileReference; name = "nft04.jpeg"; path = "../src/assets/images/nft04.jpeg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		294EACCBC03D4CA4B4E82672 /* nft05.jpeg */ = {isa = PBXFileReference; name = "nft05.jpeg"; path = "../src/assets/images/nft05.jpeg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3A428AF1882F443FAEDB75C3 /* nft06.jpeg */ = {isa = PBXFileReference; name = "nft06.jpeg"; path = "../src/assets/images/nft06.jpeg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0905C7AB2BAD4DC8B65E4F9A /* nft07.jpeg */ = {isa = PBXFileReference; name = "nft07.jpeg"; path = "../src/assets/images/nft07.jpeg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9306852D827E49F59136BDD3 /* person01.png */ = {isa = PBXFileReference; name = "person01.png"; path = "../src/assets/images/person01.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FAF48BE972D04F18B7BA150C /* person02.png */ = {isa = PBXFileReference; name = "person02.png"; path = "../src/assets/images/person02.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1E4BAFD095BD484995B0509C /* person03.png */ = {isa = PBXFileReference; name = "person03.png"; path = "../src/assets/images/person03.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		823132261EA143FD9C9D1571 /* person04.png */ = {isa = PBXFileReference; name = "person04.png"; path = "../src/assets/images/person04.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		960BE846C6824AA7A30A6E8A /* Inter-Bold.ttf */ = {isa = PBXFileReference; name = "Inter-Bold.ttf"; path = "../src/assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BF81B56BEE3E4AD986BE9D41 /* Inter-Light.ttf */ = {isa = PBXFileReference; name = "Inter-Light.ttf"; path = "../src/assets/fonts/Inter-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		707AF50AE3AE489E91C07BC9 /* Inter-Medium.ttf */ = {isa = PBXFileReference; name = "Inter-Medium.ttf"; path = "../src/assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9C27BB293BB84F21A57F24D0 /* Inter-Regular.ttf */ = {isa = PBXFileReference; name = "Inter-Regular.ttf"; path = "../src/assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CA346623CBB14D9292E49B6A /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; name = "Inter-SemiBold.ttf"; path = "../src/assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +166,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				94906E3D4EBD4E89BBA547E9 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +192,36 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		94906E3D4EBD4E89BBA547E9 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				E9AFD94A56E5490F9F1E3D45 /* badge.png */,
+				B11F5A04CE0B4FA0B33B206E /* eth.png */,
+				48C60C1094F04994A89A4774 /* heart.png */,
+				D3B7FED740F444D08BC06736 /* left.png */,
+				F87CBB6C92EE44E7B5EE96A3 /* search.png */,
+				371AC581196B4AE6A07F7FA9 /* logo.png */,
+				E50298B795074BC6BF3D84E9 /* nft01.png */,
+				1B24F43871E14ED7B37B661E /* nft02.jpeg */,
+				D4DC87202B8C4534B99B22ED /* nft03.jpeg */,
+				C4F665DFDF2044BF9B827DBE /* nft04.jpeg */,
+				294EACCBC03D4CA4B4E82672 /* nft05.jpeg */,
+				3A428AF1882F443FAEDB75C3 /* nft06.jpeg */,
+				0905C7AB2BAD4DC8B65E4F9A /* nft07.jpeg */,
+				9306852D827E49F59136BDD3 /* person01.png */,
+				FAF48BE972D04F18B7BA150C /* person02.png */,
+				1E4BAFD095BD484995B0509C /* person03.png */,
+				823132261EA143FD9C9D1571 /* person04.png */,
+				960BE846C6824AA7A30A6E8A /* Inter-Bold.ttf */,
+				BF81B56BEE3E4AD986BE9D41 /* Inter-Light.ttf */,
+				707AF50AE3AE489E91C07BC9 /* Inter-Medium.ttf */,
+				9C27BB293BB84F21A57F24D0 /* Inter-Regular.ttf */,
+				CA346623CBB14D9292E49B6A /* Inter-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -244,6 +319,28 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				83574351E2E544A7B22FF65B /* badge.png in Resources */,
+				E0829F7CF7CD4DD8BB6DD800 /* eth.png in Resources */,
+				2CAED00A78FA4974810C281D /* heart.png in Resources */,
+				2A6BBE3C14F14532B188D9DF /* left.png in Resources */,
+				CF9ED0904C254087BA2CDCA6 /* search.png in Resources */,
+				76C576F6FE624BADBE88BDC9 /* logo.png in Resources */,
+				207B1000FA12408B896888DB /* nft01.png in Resources */,
+				4B64C8026E4C47AC9C12AB6E /* nft02.jpeg in Resources */,
+				84A5CF7EDD3A40BE892A76E7 /* nft03.jpeg in Resources */,
+				79D21EF4DF66425C868BA009 /* nft04.jpeg in Resources */,
+				B6E50A3B2F4D4D52A648C750 /* nft05.jpeg in Resources */,
+				D794089B40094BF3AD81781C /* nft06.jpeg in Resources */,
+				1559856C951A4A71956C93F8 /* nft07.jpeg in Resources */,
+				5565E250450A45C5BA8B7443 /* person01.png in Resources */,
+				0380DB2004004C3DA3FB62E4 /* person02.png in Resources */,
+				4F3BBE5C5DF2492397EC97A8 /* person03.png in Resources */,
+				5FE2178EAD5A4148B1FD5C4C /* person04.png in Resources */,
+				2737598FAD2F4A52AFB8D41B /* Inter-Bold.ttf in Resources */,
+				4EB756281CE546258A07F440 /* Inter-Light.ttf in Resources */,
+				9DA7C304BE764D52B7BD9EC2 /* Inter-Medium.ttf in Resources */,
+				1E4828E07310435799B717DE /* Inter-Regular.ttf in Resources */,
+				6F9130C5CF39495794813615 /* Inter-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

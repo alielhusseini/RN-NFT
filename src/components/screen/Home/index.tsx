@@ -1,10 +1,22 @@
-import { View, Text } from 'react-native'
+import { SafeAreaView } from 'react-native'
 import React from 'react'
+import { COLORS } from '../../../constants'
+import { Background, FocusedStatusBar, NFTCardList } from 'components/shared'
 
 export function Home() {
+
     return (
-        <View>
-            <Text>Home</Text>
-        </View>
+        <SafeAreaView style={{ flex: 1 }}>
+
+            {/* STATUS BAR */}
+            <FocusedStatusBar backgroundColor={COLORS.primary} barStyle={'light-content'} />
+
+            {/* NFT CARD */}
+            <NFTCardList />
+
+            {/* BACKGROUND */}
+            <Background />
+
+        </SafeAreaView>
     )
 }

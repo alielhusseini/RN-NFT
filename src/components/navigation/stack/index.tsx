@@ -1,11 +1,13 @@
 import React from 'react'
-import { createStackNavigator } from '@react-navigation/stack'
+import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { NavigationContainer } from '@react-navigation/native'
-import { StackType } from './types'
 import { screenOptions } from './screenOptions'
 import { Home, Details } from '../../../components/screen'
 
-const Stack = createStackNavigator<StackType>() // it takes type and not interface
+// types
+import { StackType } from './types'
+
+const Stack = createNativeStackNavigator<StackType>() // it takes type and not interface
 
 export const StackNavigation = () => {
     return (
