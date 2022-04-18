@@ -9,7 +9,7 @@ export function Home() {
         <SafeAreaView style={{ flex: 1 }}>
 
             {/* STATUS BAR */}
-            <FocusedStatusBar backgroundColor={COLORS.primary} barStyle={'light-content'} />
+            <FocusedStatusBar translucent={false} backgroundColor={COLORS.primary} barStyle='light-content' />
 
             {/* NFT CARD */}
             <NFTCardList />

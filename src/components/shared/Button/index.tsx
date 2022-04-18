@@ -5,7 +5,7 @@ import { COLORS, FONTS } from '../../../constants'
 // styles
 import { styles } from './styles'
 
-export function CircleButton({ imgUrl, handlePress, right, top }: { imgUrl: ImageSourcePropType, right: number, top: number, handlePress: () => void }) {
+export function CircleButton({ imgUrl, handlePress, right, top, left }: { imgUrl: ImageSourcePropType, right?: number, top?: number, left?: number, handlePress: () => void }) {
     return (
         <Pressable
             onPress={handlePress}
@@ -17,6 +17,7 @@ export function CircleButton({ imgUrl, handlePress, right, top }: { imgUrl: Imag
                 {
                     right,
                     top,
+                    left,
                 },
                 // the size of the button
                 styles.circelButton

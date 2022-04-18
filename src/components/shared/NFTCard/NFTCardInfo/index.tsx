@@ -1,7 +1,5 @@
-import { View, Text } from 'react-native'
+import { View } from 'react-native'
 import React from 'react'
-import { People } from './People'
-import { EndDate } from './EndDate'
 import { NFTTitle } from './NFTTitle'
 import { useNavigation } from '@react-navigation/native'
 import { NativeStackNavigationProp } from '@react-navigation/native-stack'
@@ -9,6 +7,7 @@ import { EthPrice } from './EthPrice'
 import { RectButton } from '../../../../components/shared/Button'
 import { SIZES } from '../../../../constants'
 import { scale } from 'react-native-size-matters'
+import { SubInfo } from './SubInfo'
 
 // types
 import { StackType } from 'components/navigation/stack/types'
@@ -22,10 +21,7 @@ export function NFTCardInfo({ id, title, subTitle, titleSize, subTitleSize, pric
 
     return (
         <>
-            <View style={styles.headerContainer}>
-                <People />
-                <EndDate />
-            </View>
+            <SubInfo />
 
             <View style={styles.bodyContainer}>
                 <NFTTitle title={title} subTitle={subTitle} titleSize={titleSize} subTitleSize={subTitleSize} />
