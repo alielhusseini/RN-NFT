@@ -1,10 +1,16 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-export function Details() {
+// types
+import { PropType } from './types'
+
+export function Details({ route, navigation }: PropType) {
+
+    const { id } = route.params
+
     return (
         <View>
-            <Text>Details</Text>
+            <Text>{id}</Text>
         </View>
     )
 }

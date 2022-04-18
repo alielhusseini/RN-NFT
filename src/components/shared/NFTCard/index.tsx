@@ -1,30 +1,21 @@
-import { View, Text, Image } from 'react-native'
+import { View } from 'react-native'
 import React from 'react'
-import { useNavigation } from '@react-navigation/native'
-import { NativeStackNavigationProp } from '@react-navigation/native-stack'
-import { assets } from '../../../constants'
-import { CircleButton, RectButton } from '../Button'
+import { NFTCardInfo } from './NFTCardInfo'
+import { NFTCardImg } from './NFTCardImg'
 
 //types
-import { StackType } from 'components/navigation/stack/types'
 import { INFTCard } from './types'
 
 // styles
 import { styles } from './styles'
+import { SIZES } from '../../../constants'
 
 export function NFTCard({ id, name, creator, price, description, image, bids }: INFTCard) {
 
-    const navigation = useNavigation<NativeStackNavigationProp<{ Details: StackType['Details'] }, 'Details'>>()
-
     return (
         <View style={styles.cardContainer}>
-            <View style={styles.card}>
-                <Image
-                    source={image}
-                    style={styles.image}
-                />
-                <CircleButton handlePress={() => console.warn('Liked')} imgUrl={assets.heart} right={10} top={10} />
-            </View>
+            <NFTCardImg image={image} />
+            <NFTCardInfo id={id} price={price} title={name} subTitle={creator} titleSize={SIZES.large} subTitleSize={SIZES.small} />
         </View>
     )
 }

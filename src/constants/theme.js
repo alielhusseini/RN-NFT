@@ -1,3 +1,5 @@
+import { scale } from "react-native-size-matters";
+
 export const COLORS = {
   primary: "#001F2D",
   secondary: "#4D626C",
@@ -6,20 +8,20 @@ export const COLORS = {
 };
 
 export const SIZES = {
-  base: '8@s',
-  small: '12@s',
-  font: '14@s',
-  medium: '16@s',
-  large: '18@s',
-  extraLarge: '24@s',
+  base: scale(8),
+  small: scale(12),
+  font: scale(14),
+  medium: scale(16),
+  large: scale(18),
+  extraLarge: scale(24),
 };
 
 export const FONTS = {
-  bold: "InterBold",
-  semiBold: "InterSemiBold",
-  medium: "InterMedium",
-  regular: "InterRegular",
-  light: "InterLight",
+  bold: "Inter-Bold",
+  semiBold: "Inter-SemiBold",
+  medium: "Inter-Medium",
+  regular: "Inter-Regular",
+  light: "Inter-Light",
 };
 
 export const SHADOWS = {

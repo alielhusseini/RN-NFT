@@ -1,5 +1,7 @@
+import { ImageSourcePropType } from "react-native"
+
 export interface INFTCard {
-    id: string, name: string, creator: string, price: number, description: string, image: any, bids?: IBid[]
+    id: string, name: string, creator: string, price: number, description: string, image: ImageSourcePropType, bids?: IBid[]
 }
 
 interface IBid {

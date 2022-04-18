@@ -16,5 +16,10 @@ export const styles = ScaledSheet.create({
         width: '24@s',
         height: '24@s',
         resizeMode: 'contain',
-    }
+    },
+    rectButton: {
+        backgroundColor: COLORS.primary,
+        borderRadius: SIZES.extraLarge,
+        padding: SIZES.small,
+    },
 })
