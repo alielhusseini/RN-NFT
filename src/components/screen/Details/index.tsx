@@ -1,17 +1,15 @@
-import { View, Text, SafeAreaView, StatusBar, FlatList, Image } from 'react-native'
+import { View, SafeAreaView, FlatList, Image } from 'react-native'
 import React, { useEffect, useState } from 'react'
-import { FocusedStatusBar } from '../../../components/shared'
+import { DetailsInfo, FocusedStatusBar } from '../../../components/shared'
 import { RectButton } from '../../shared/Button'
 import { NFTData, SIZES } from '../../../constants'
-import { DetailsBid, DetailsHeader } from 'components/shared'
+import { DetailsBid } from 'components/shared'
 
 // types
 import { IData, PropType } from './types'
 
 // styles
 import { styles } from './styles'
-import { SubInfo } from 'components/shared/NFTCard/NFTCardInfo/SubInfo'
-import { DetailsDesc } from 'components/shared/DetailsDesc'
 
 export function Details({ route, navigation }: PropType) {
 
@@ -39,13 +37,7 @@ export function Details({ route, navigation }: PropType) {
                 keyExtractor={(item) => item.id}
                 data={data?.bids}
                 renderItem={({ item }) => <DetailsBid {...item} />}
-                ListHeaderComponent={
-                    <>
-                        <DetailsHeader data={data as IData} navigation={navigation} />
-                        <SubInfo />
-                        <DetailsDesc data={data as IData} />
-                    </>
-                }
+                ListHeaderComponent={<DetailsInfo data={data as IData} navigation={navigation} />}
                 showsVerticalScrollIndicator={false}
                 contentContainerStyle={styles.bidsContainer}
             />

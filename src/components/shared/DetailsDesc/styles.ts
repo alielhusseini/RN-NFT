@@ -9,4 +9,11 @@ export const styles = ScaledSheet.create({
         alignItems: 'center',
     },
     descTitle: { fontSize: SIZES.font, fontFamily: FONTS.semiBold, color: COLORS.primary },
+    descText: { fontSize: SIZES.small, fontFamily: FONTS.regular, color: COLORS.secondary, lineHeight: SIZES.large },
+    readMore: { fontSize: SIZES.small, fontFamily: FONTS.semiBold, color: COLORS.primary, },
+    bidsTitls: {
+        fontSize: SIZES.font,
+        fontFamily: FONTS.semiBold,
+        color: COLORS.primary,
+    }
 })
