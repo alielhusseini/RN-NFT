@@ -1,5 +1,5 @@
-import { SafeAreaView } from 'react-native'
 import React from 'react'
+import { SafeAreaView } from 'react-native'
 import { COLORS } from '../../../constants'
 import { Background, FocusedStatusBar, NFTCardList } from 'components/shared'
 
